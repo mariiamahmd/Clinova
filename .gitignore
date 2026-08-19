@@ -1,0 +1,5 @@
+.env
+chroma_db
+bm25_data.json
+all_chunks.txt
+bm25_documents.json
