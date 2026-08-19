@@ -49,7 +49,7 @@ try:
 except Exception:
     pass
 
-collection = client.create_collection(
+collection = client.get_or_create_collection(
     name="skin_cancer",
     configuration={"hnsw": {"space": "cosine"}}
 )
